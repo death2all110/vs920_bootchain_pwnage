@@ -1,0 +1,36 @@
+We all hate EULA (I know) But YOU HAVE TO READ THIS ONE! (Its in the script)
+
+Oh, and read the readme.
+
+**OK folks, finally after countless hours of research, testing, and scripting, we have a unlocked bootloader for ICS.**
+
+This uses the bootchain from GB with tdm's 3.0.8 kernel for cm9, and several tweaked files from the Spectrum's ICS itself.
+
+
+Whats this do?
+==============
+
+*	Installs root
+*	Installs the unlocked bootloader from gingerbread
+*	Installs CWM Touch 6.0.1.1
+*	Checks the md5sum (twice) on each image before flashing them to verify their integrity
+
+Requirements
+============
+
+-	Be on the ZV7 OTA or cab.
+-	This is to ensure you get the new radio(s)
+-	This has not been tested on Gingerbread nor supported for GB.
+
+How to Install
+==============
+
+**This is for WINDOWS ONLY. PlayfulGod has posted the Linux/OSX one here:**
+**[[BOOTLOADER] Unlocked bootloader, root, CWM for the LG Spectrum 4G on ICS (Linux Install)](http://androidforums.com/spectrum-all-things-root/639696-updated-11-20-12-bootloader-windows-vs920-bootloader-pwnage-tool-lg-spectrum-4g.html)**
++	Download & unzip file listed below
++	Make sure you keep everything together in the bootloader folder. Don't even rename it.
++	Connect Phone to PC via USB cable
++	Have debugging enable on your phone
++	Have phone in Internet connection mode
++	Navigate to the unzipped folder you downloaded
++	Run the bootloader_pwn.bat
